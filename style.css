@@ -273,6 +273,8 @@ box-sizing: border-box;
   
   .header-ul{
     display: block;
+    padding-top: 61px;
+    box-sizing: border-box;
   }
 
   .header-ul li{
