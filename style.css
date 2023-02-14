@@ -1,0 +1,357 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  opacity: 0.6;
+  filter: brightness(100%);
+}
+
+/* *{
+  outline: 2px red solid;
+} */
+
+.first-div{
+  max-width: 1200px;
+  margin-right: 0;
+  
+}
+/* ＝＝＝ここからヘッダー内＝＝＝ */
+/* ＝＝＝ヘッダースクロール時に上部に固定＝＝＝ */
+
+.wrapper{
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin-bottom: 40px;
+  z-index: 10;
+  padding: 30px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.header-h1{
+  font-size: 20px;
+  display: inline-block;
+  float: left;
+  margin: 0;
+  margin-left: 16%;
+  padding-top: 16px;
+}
+
+
+.header-ul{
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+.header-ul li{
+  display: list-item;
+  list-style: none;
+  padding-right: 38px;
+}
+
+.header-ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.section-products{
+  margin-left: 8%;
+  margin-top: 3%;
+  /* width: 100%; */
+  
+ 
+}
+/* ＝＝＝ここからセクション＝＝＝ */
+/* ＝＝＝フレックスボックスを使用＝＝＝ */
+.section{
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 16px;
+  box-sizing: border-box;
+
+
+}
+
+/* ＝＝＝セクション内divの幅を24%にする＝＝＝ */
+.section-div{
+  width: 24%;
+}
+
+ /* ＝＝＝セクション内の各々の画像幅をdivいっぱいに広げる＝＝＝ */
+.section-img{
+  width: 100%;
+}
+
+
+/* ＝＝＝viewmoreについて＝＝＝ */
+.viewmore-div{
+  text-align: center;
+  padding: 40px;
+}
+
+.viewmore-div a{
+  color: black;
+  text-decoration: none;
+}
+
+/* ＝＝＝ここから第二セクション＝＝＝ */
+.second-section{
+  margin-top: 8%;
+  padding: 20px;
+}
+
+.second-section-div{
+  text-align: center;
+  width: 100%;
+}
+
+.second-section-a2 {
+  text-decoration: none;
+  color: black;
+  margin-left: 8%;
+
+}
+
+/* ＝＝＝ここからフッター＝＝＝ */
+.footer{
+  margin-left: 8%;
+  margin-top: 8%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.footer-div{
+  width: 100%;
+}
+
+.footer-p1{
+  float: left;
+  margin-right: 32px;
+}
+.footer-p2{
+  float: left;
+  margin-right: 32px;
+}
+
+
+small{
+  text-align: right;
+}
+
+/* ＝＝＝プロダクト２セクション＝＝＝ */
+.puroducts2-section{
+  max-width: 1200px;
+}
+.products2-section-p{
+  margin-left: 8%;
+}
+.products2-section-div{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.products2-section-img{
+  width: 35%;
+}
+
+.products2-section-div2{
+  width: 35%;
+}
+
+.products2-section-div2>p{
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.back{
+  text-align: center;
+  margin-top: 8%;
+}
+
+/* ＝＝＝ここからabout＝＝＝ */
+main{
+  max-width: 1200px;
+  
+}
+
+.content-wrapper{
+  width: 50%;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+.page-title{
+  font-size: 18px;
+}
+
+/* ＝＝＝ここからカンパニーについて＝＝＝ */
+.main-company{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.company-div{
+  width: 100%;
+}
+
+dl{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+dt{
+  width: 30%;
+  padding: 30px 10px;
+  border-bottom: solid 1px gainsboro;
+}
+
+dd{
+  width: 50%;
+  margin-left: 0;
+  padding: 30px 10px;
+  border-bottom: solid 1px gainsboro;
+}
+
+
+.dt-main{
+  border-bottom: none;
+}
+.dd-main{
+  border-bottom: none;
+}
+
+iframe{
+width: 680px;
+margin-top: 16px;
+margin: 0 auto;
+padding: 16px;
+box-sizing: border-box;
+}
+
+.iframe-div{
+  max-width: 1200px;
+}
+
+
+/* <!-- ＝＝＝ここからメディアクエリを使用＝＝＝ --> */
+/* <!-- ＝＝＝スマホ用レスポンシブ＝＝＝ --> */
+ @media screen and ( max-width:767px){
+
+  /* ＝＝＝ヘッダー関係＝＝＝ */
+  .wrapper{
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 150px;
+  }
+
+  .header-h1{
+    font-size: 20px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 16%;
+    padding-top: 16px;
+  }
+  
+  
+  .header-ul{
+    display: block;
+  }
+
+  .header-ul li{
+    float: left;
+    text-align: center;
+    
+  }
+  
+  .header-nav{
+    background-color: white;
+  }
+
+  .section-products{
+    margin-top:72px ;
+  }
+
+  /* ＝＝＝画像やtextを中央揃へにする＝＝＝ */
+
+  .section{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  .section-div{
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-img{
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+/* ＝＝＝マップ＝＝＝ */
+
+  iframe{
+  width: 100%;
+  margin-top: 16px;
+  margin: 0 auto;
+  padding: 16px;
+  box-sizing: border-box;
+  }
+
+
+  /* ＝＝＝ここからプロダクト２＝＝＝ */
+  .products2-section-div{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  .products2-section-img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .products2-section-div2{
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+/* ＝＝＝ここからABOUT＝＝＝ */
+main p{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content-wrapper{
+  margin: 0 auto;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+}
