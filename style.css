@@ -259,7 +259,7 @@ box-sizing: border-box;
   .wrapper{
     margin-bottom: 0;
     margin-top: 0;
-    height: 150px;
+    height: 160px;
   }
 
   .header-h1{
@@ -354,6 +354,9 @@ main p{
   width: 100%;
   padding: 16px;
   box-sizing: border-box;
+}
+main{
+  margin-top: 32px;
 }
 
 }
